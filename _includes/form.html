@@ -10,17 +10,13 @@
                     </div>
                     <div class="form-wrapper">
                         <div class="w-form">
-                            <form method="POST" action="//formspree.io/bryan@zis.es" data-redirect="{{ site.url }}/thanks.html">
-                                <div class="bottom-border">
-                                    <p class="paragraph medium">{{ page.form.content }}</p>
-                                </div>
-                                <input type="hidden" name="_subject" value="{{ page.form.email_subject }}" />
-
-                                <input type="text" class="text-field w-input" maxlength="256" name="First-Name" data-name="First Name" placeholder="First Name" id="First-Name" required="">
-                                <input type="text" class="text-field w-input" maxlength="256" name="Last-Name" data-name="Last Name" placeholder="Last Name" id="Last-Name" required="">
+                            <form method="POST" action="//formspree.io/darkoservantes@outlook.com" data-redirect="{{ site.url }}/thanks.html">
+                                
+                                <input type="text" class="text-field w-input" maxlength="256" name="First-Name" data-name="First Name" placeholder="First Name" id="First-Name" required>
+                                <input type="text" class="text-field w-input" maxlength="256" name="Last-Name" data-name="Last Name" placeholder="Last Name" id="Last-Name" required>
                                 <input type="text" class="text-field w-input" name="Address" data-name="Address" placeholder="Address">
                                 <input type="number" class="text-field w-input" name="Zipcode" data-name="Zipcode" placeholder="Zipcode" >
-                                <input type="email" class="text-field w-input" maxlength="256" name="Email" data-name="Email" placeholder="Your Email" id="Email" required=""><input type="text" class="text-field w-input" maxlength="256" name="Phone" data-name="Phone" placeholder="Your Phone" id="Phone">
+                                <input type="email" class="text-field w-input" maxlength="256" name="Email" data-name="Email" placeholder="Your Email" id="Email" required><input type="text" class="text-field w-input" maxlength="256" name="Phone" data-name="Phone" placeholder="Your Phone" id="Phone">
 
                                 <p class="paragraph medium">Are you over 18 years of age?</p>
                                 <div class="checkbox-field w-checkbox"> 
@@ -32,31 +28,37 @@
 
                                 <p class="paragraph medium">Have you ever been convicted of a felony?</p>
                                 <div class="checkbox-field w-checkbox"> 
-                                    <input type="radio" id="Felony" name="Felony" data-name="Felony" value="Yes" onclick="checkfunction();"> Yes
+                                    <div class="checkbox-field w-checkbox">
+                                        <input type="radio" id="Felony" name="Felony" data-name="Felony" value="Yes" onclick="checkfunction();"> Yes
+                                    </div>
                                     <div id="feloy-checked" style="display: none" >
                                         <input type="text" class="text-field w-input" maxlength="256" id="Crime" name="Crime" placeholder="What Crime was the conviction for?">
                                         <input type="text" class="text-field w-input" maxlength="256" id="ConvictionDate" name="ConvictionDate" placeholder="What was the date of the conviction?">
-                                        <p class="paragraph medium">What kind of position would most interest you?</p>
-                                        <p class="paragraph medium">- Entry Level Operation</p>
-                                        <select id="Entry-level-operation" name="Entry-level-operation" data-name="Entry-level-operation?" required="" class="w-select">
-                                            <option value="Choose One">Choose One</option>
-                                            <option value="Trimmer">Trimmer</option>
-                                            <option value="Gardener">Gardener</option>
-                                            <option value="Extraction Tech">Extraction Tech</option>
-                                            <option value="Janitorial">Janitorial</option>
-                                        </select>
-                                        <p class="paragraph medium">- Entry Level Security</p>
-                                        <select id="Entry-level-security" name="Entry-level-security" data-name="Entry-level-security?" required="" class="w-select">
-                                            <option value="Choose One">Choose One</option>
-                                            <option value="Security Guard">Security Guard</option>
-                                            <option value="Delivery Agent">Delivery Agent</option>
-                                        </select>
+                                        
                                     </div>
-                                    <input type="radio" id="Felony" name="Felony" data-name="Felony" value="No" checked onclick="checkfunction();"> No
+                                    <div class="checkbox-field w-checkbox">
+                                        <input type="radio" id="Felony" name="Felony" data-name="Felony" value="No" checked onclick="checkfunction();"> No
+                                    </div>
                                 </div>
+                                <p class="paragraph medium">What kind of position would most interest you?</p>
+                                <p class="paragraph medium">- Entry Level Operation</p>
+                                <select id="Entry-level-operation" name="Entry-level-operation" data-name="Entry-level-operation?" required class="w-select">
+                                    <option value="Choose One">Choose One</option>
+                                    <option value="Trimmer">Trimmer</option>
+                                    <option value="Gardener">Gardener</option>
+                                    <option value="Extraction Tech">Extraction Tech</option>
+                                    <option value="Janitorial">Janitorial</option>
+                                </select>
+                                <p class="paragraph medium">- Entry Level Security</p>
+                                <select id="Entry-level-security" name="Entry-level-security" data-name="Entry-level-security?" required class="w-select">
+                                    <option value="Choose One">Choose One</option>
+                                    <option value="Security Guard">Security Guard</option>
+                                    <option value="Delivery Agent">Delivery Agent</option>
+                                </select>
                                 <input type="hidden" role="uploadcare-uploader" name="my_file" />
                                 <textarea id="Description" name="Description" placeholder="Anything else you would like to tell us?" maxlength="5000" data-name="Description" class="textarea w-input"></textarea>
-                                <input type="submit" value="Take the first step here!" data-wait="Please wait..." class="button-2 w-button">
+                                <input type="submit" value="Send" data-wait="Please wait..." class="button-2 w-button">
+
                             </form>
                         </div>
                     </div>
