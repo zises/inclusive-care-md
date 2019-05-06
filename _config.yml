@@ -18,8 +18,8 @@ meta:
         A Better Employer for a Better Maryland.
 appointment:
     link:
-        src: https://calendly.com/doctorconsalter
-        label: Book Appointment
+#        src: https://calendly.com/doctorconsalter
+#        label: Book Appointment
 footer:
     blocks:
     - header: Contact Us
@@ -35,17 +35,17 @@ footer:
         src: https://twitter.com/#
       - icon: instagram
         src: https://instagram.com/#
-    - header: Address
-      lines:
-      - 1531 N Wood St
-      - 1st Floor
-      - Chicago, IL 60622
-      link:
-          src: https://goo.gl/maps/FLFBkq8dBnD2
-          label: GET DIRECTIONS
-    - header: Schedule
-      content: By Appointment Only
-      link:
-          src: https://calendly.com/doctorconsalter
-          label: Book Appointment
-          target: _blank
+#    - header: Address
+#      lines:
+#      - 1531 N Wood St
+#      - 1st Floor
+#      - Chicago, IL 60622
+#      link:
+#          src: https://goo.gl/maps/FLFBkq8dBnD2
+#          label: GET DIRECTIONS
+#    - header: Schedule
+#      content: By Appointment Only
+#      link:
+#          src: https://calendly.com/doctorconsalter
+#          label: Book Appointment
+#          target: _blank
