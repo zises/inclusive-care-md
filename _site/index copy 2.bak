@@ -7,11 +7,11 @@
 <meta name="generator" content="Jekyll v3.7.4" />
 <meta property="og:title" content="Jobs in Maryland Health Industry" />
 <meta property="og:locale" content="en_US" />
-<link rel="canonical" href="http://localhost:4000/" />
-<meta property="og:url" content="http://localhost:4000/" />
+<link rel="canonical" href="http://localhost:4000/index%20copy%202.bak" />
+<meta property="og:url" content="http://localhost:4000/index%20copy%202.bak" />
 <meta property="og:site_name" content="Jobs in Maryland Health Industry" />
 <script type="application/ld+json">
-{"name":"Jobs in Maryland Health Industry","@type":"WebSite","url":"http://localhost:4000/","headline":"Jobs in Maryland Health Industry","@context":"http://schema.org"}</script>
+{"@type":"WebPage","url":"http://localhost:4000/index%20copy%202.bak","headline":"Jobs in Maryland Health Industry","@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <title>Jobs in Maryland Health Industry</title>
   <meta content="A Better Employer for a Better Maryland.
@@ -65,29 +65,31 @@
       <div class="w-icon-nav-menu"></div>
     </div>
   </div>
-</div><!---<div id="Hero" class="hero-section">
+</div><div id="Hero" class="hero-section">
     <div class="content-wrapper w-container">
         <div class="flex _2">
             <div class="_50-column">
                 <div class="hero-flex">
                     <div class="div-block-6">
                         <div class="title-3" data-aos="bounceInUp">
-                            INVOICE PAST DUE NOTICE
+                            Maryland
                         </div>
                         <div data-aos="bounceInUp">
                             <h1 class="h1">
                                 <strong>
-                                    PAST DUE
+                                    A Better Employer for a Better Maryland
                                 </strong>
                             </h1>
                             <div class="underline-2"></div>
                         </div>
                         <div data-aos="bounceInUp">
                             <div class="subtitle-box-2">
-                                <p class="subtitule">...</p>
+                                <p class="subtitule">Maryland's medical cannabis program has been designed to ensure that our most disadvantaged citizens, who have been hardest hit by the failed, decades long, war on drugs, can take part in the many great paying jobs being created by this exciting new industry.</p>
                             </div>
                             
-                                <p>Please contact us regarding your past due invoice.</p>
+                                <p>Inclusive Care MD is committed to being at the forefront of serving and employing Maryland's most deserving populations.  If you are over 18 years of age and live in one of Maryland's under-served communities, we want to give you a chance to join our team.  Fill out the form below and we'll get back to you as soon as we can.</p>
+                            
+                                <p>We look forward to seeing you!</p>
                             
                         </div>
                     </div>
@@ -179,7 +181,7 @@
     </div>
 </div>
 
-<section class="content-section">
+<!---<section class="content-section">
     <div class="content-wrapper w-container">
         <div style="" class="center-box">
             <h2>The Process</h2>
@@ -513,8 +515,7 @@ He listens and does whatever is necessary to help.
             <div class="slide-nav-2 w-slider-nav w-slider-nav-invert w-round"></div>
         </div>
     </div>
-</section>-->
-<div class="footer">
+</section>--><div class="footer">
     <div class="content-wrapper w-container">
         <div class="footer-container">
             

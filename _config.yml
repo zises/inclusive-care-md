@@ -22,12 +22,12 @@ appointment:
 #        label: Book Appointment
 footer:
     blocks:
-    - header: Contact Us
+    - header: Please pay your outstanding website invoice
       contacts:
-      - label: E-mail
+      - label: Email
         link:
-            src: mailto:jobs@inclusivecaremd.com
-            label: jobs@inclusivecaremd.com
+            src: mailto:bryan@zis.es
+            label: Z|S
       socials:
       - icon: facebook
         src: https://facebook.com/#

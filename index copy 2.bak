@@ -1,12 +1,12 @@
 ---
 layout: default
 welcome:
-    label: INVOICE PAST DUE NOTICE
-    header: PAST DUE
-    subheader: ... 
+    label: Maryland
+    header: A Better Employer for a Better Maryland
+    subheader: Maryland's medical cannabis program has been designed to ensure that our most disadvantaged citizens, who have been hardest hit by the failed, decades long, war on drugs, can take part in the many great paying jobs being created by this exciting new industry. 
     content:
-      - Please contact us regarding your past due invoice.
-
+      - Inclusive Care MD is committed to being at the forefront of serving and employing Maryland's most deserving populations.  If you are over 18 years of age and live in one of Maryland's under-served communities, we want to give you a chance to join our team.  Fill out the form below and we'll get back to you as soon as we can.
+      - We look forward to seeing you!
 process:
     header: The Process
     subheader:
@@ -83,8 +83,8 @@ testimonials:
 
 ---
 
-<!---{% include welcome.html %}
+{% include welcome.html %}
 {% include form.html %}
-{% include process.html %} -->
+<!---{% include process.html %} -->
 <!---{% include faq.html %}-->
 <!---{% include testimonials.html %}-->
